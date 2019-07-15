@@ -1,0 +1,943 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jek",
+				"jekyll-seo-tag\t(Gemfile)"
+			],
+			[
+				"jekyll",
+				"jekyll-feed\t(Gemfile)"
+			],
+			[
+				"stat",
+				"staff.html\tabc"
+			],
+			[
+				"auth",
+				"authors\t(staff.html)"
+			],
+			[
+				"layou",
+				"layout\tJekyll"
+			],
+			[
+				"page",
+				"page.url\tabc"
+			],
+			[
+				"for",
+				"for\tliquid for loop"
+			],
+			[
+				"include",
+				"include\tliquid include"
+			],
+			[
+				"ab",
+				"about\t(about.md)"
+			],
+			[
+				"if",
+				"if\tliquid if"
+			],
+			[
+				"d-",
+				"d-inline \tBootstrap 4 Class"
+			],
+			[
+				"art",
+				"article2\tabc"
+			],
+			[
+				"py",
+				"py-3 \tBootstrap 4 Class"
+			],
+			[
+				"lig",
+				"lightbox\t(_gallerie-content.html)"
+			],
+			[
+				"ba",
+				"background\t(card-flip.css)"
+			],
+			[
+				"my-sm",
+				"my-sm-1 \tBootstrap 4 Class"
+			],
+			[
+				"my-",
+				"my-auto\tabc"
+			],
+			[
+				"col-sm",
+				"col-sm-2\tabc"
+			],
+			[
+				"px",
+				"px-3 \tBootstrap 4 Class"
+			],
+			[
+				"sect",
+				"section\tabc"
+			],
+			[
+				"carousel",
+				"carouselExampleIndicators\tabc"
+			],
+			[
+				"h",
+				"h-100 \tBootstrap 4 Class"
+			],
+			[
+				"aria-",
+				"aria-hidden\t(_about-us-content.html)"
+			],
+			[
+				"fac",
+				"fa-facebook\tabc"
+			],
+			[
+				"list",
+				"list-inline-item\tabc"
+			],
+			[
+				"h-",
+				"h-75 \tBootstrap 4 Class"
+			],
+			[
+				"p-y",
+				"py-0 \tBootstrap 4 Class"
+			],
+			[
+				"hi",
+				"height\t(custom-style.css)"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"bg-l",
+				"bg-light \tBootstrap 4 Class"
+			],
+			[
+				"carou",
+				"carouselProject\tabc"
+			],
+			[
+				"data",
+				"data-slide-to\tabc"
+			],
+			[
+				"sha",
+				"shadow-sm\t(custom-style.css)"
+			],
+			[
+				"fonda",
+				"fondationdrmoussoh.org\tabc"
+			],
+			[
+				"s",
+				"sitemap\tabc"
+			],
+			[
+				"Sta",
+				"StaticViewSitemap\tabc"
+			],
+			[
+				"si",
+				"sitemaps\tabc"
+			],
+			[
+				"site",
+				"sitemap\tabc"
+			],
+			[
+				"vi",
+				"views\tabc"
+			],
+			[
+				"sitemp",
+				"sitemaps\tabc"
+			],
+			[
+				"django",
+				"django.contrib.sitemaps\t(settings.py)"
+			],
+			[
+				"btn-ou",
+				"btn-outline-light \tBootstrap 4 Class"
+			],
+			[
+				"btn",
+				"btn-info \tBootstrap 4 Class"
+			],
+			[
+				"err",
+				"error404\t(views.py)"
+			],
+			[
+				"bordr",
+				"border-radius\tproperty"
+			],
+			[
+				"style",
+				"style\tAttr"
+			],
+			[
+				"my",
+				"my-3 \tBootstrap 4 Class"
+			],
+			[
+				"push",
+				"push-1 \tBootstrap 4 Class"
+			],
+			[
+				"pu",
+				"pull-1 \tBootstrap 4 Class"
+			],
+			[
+				"text-m",
+				"text-muted \tBootstrap 4 Class"
+			],
+			[
+				"border",
+				"border-bottom\t(base_content.html)"
+			],
+			[
+				"w-",
+				"w-100 \tBootstrap 4 Class"
+			],
+			[
+				"rounded",
+				"rounded-top \tBootstrap 4 Class"
+			],
+			[
+				"mx",
+				"mx-auto\t(base_content.html)"
+			],
+			[
+				"just",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"dr",
+				"drmoussoh\tabc"
+			],
+			[
+				"text",
+				"text-info \tBootstrap 4 Class"
+			],
+			[
+				"title",
+				"title\tAttr"
+			],
+			[
+				"font-we",
+				"font-weight-normal \tBootstrap 4 Class"
+			],
+			[
+				"border-bott",
+				"border-bottom-1\tabc"
+			],
+			[
+				"bord",
+				"border-primary \tBootstrap 4 Class"
+			],
+			[
+				"boder",
+				"border-right-0 \tBootstrap 4 Class"
+			],
+			[
+				"displa",
+				"display-4 \tBootstrap 4 Class"
+			],
+			[
+				"display",
+				"display-4 \tBootstrap 4 Class"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"border-",
+				"border-bottom\tproperty"
+			],
+			[
+				"non",
+				"none\tabc"
+			],
+			[
+				"text-wh",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"var",
+				"var()"
+			],
+			[
+				"alignm",
+				"align-items\tproperty"
+			],
+			[
+				"ali",
+				"align-content\tproperty"
+			],
+			[
+				"text-d",
+				"text-gray-dark \tBootstrap 4 Class"
+			],
+			[
+				"items",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"content-c",
+				"justify-content-center \tBootstrap 4 Class"
+			],
+			[
+				"align-items",
+				"align-items-center \tBootstrap 4 Class"
+			],
+			[
+				"nav-",
+				"nav-tabs \tBootstrap 4 Class"
+			],
+			[
+				"dropdown-men",
+				"dropdown-menu \tBootstrap 4 Class"
+			],
+			[
+				"mous",
+				"mouseleave\t.mouseleave()"
+			],
+			[
+				"show",
+				"show\tabc"
+			],
+			[
+				"dro",
+				"dropdown-menu\t(_nav.html)"
+			],
+			[
+				"toggle",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"width",
+				"width\t(base_content.html)"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"navbar",
+				"navbarDropdown\tabc"
+			],
+			[
+				"aria",
+				"aria-labelledby\tabc"
+			],
+			[
+				"alib",
+				"align-content-between\tabc"
+			],
+			[
+				"contn",
+				"container-fluid \tBootstrap 4 Class"
+			],
+			[
+				"betwe",
+				"justify-content-between \tBootstrap 4 Class"
+			],
+			[
+				"pr",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"rounded-",
+				"rounded-circle \tBootstrap 4 Class"
+			],
+			[
+				"data-",
+				"data-ride"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"car",
+				"carousel-caption"
+			],
+			[
+				"flo-",
+				"float-left\t(bootstrap.css)"
+			],
+			[
+				"vide",
+				"videoCarousel"
+			],
+			[
+				"data-tar",
+				"data-interval"
+			],
+			[
+				"bg-",
+				"bg-info \tBootstrap 4 Class"
+			],
+			[
+				"va",
+				"var()"
+			],
+			[
+				"mb-",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"widt",
+				"width\tAttr"
+			],
+			[
+				"float",
+				"float-right \tBootstrap 4 Class"
+			],
+			[
+				"text-pri",
+				"text-primary \tBootstrap 4 Class"
+			],
+			[
+				"text-dar",
+				"text-dark \tBootstrap 4 Class"
+			],
+			[
+				"mb-sm",
+				"mb-sm-2 \tBootstrap 4 Class"
+			],
+			[
+				"mb",
+				"mb-3 \tBootstrap 4 Class"
+			],
+			[
+				"text-lig",
+				"text-light_\t(custom-style.css)"
+			],
+			[
+				"text-wi",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"font",
+				"font-weight-bold \tBootstrap 4 Class"
+			],
+			[
+				"font-",
+				"font-weight-bold"
+			],
+			[
+				"dis",
+				"display-4 \tBootstrap 4 Class"
+			],
+			[
+				"border-b",
+				"border-bottom\tproperty"
+			],
+			[
+				"bo",
+				"border-info \tBootstrap 4 Class"
+			],
+			[
+				"text-c",
+				"text-center \tBootstrap 4 Class"
+			],
+			[
+				"text-",
+				"text-justify \tBootstrap 4 Class"
+			],
+			[
+				"bcol",
+				"background-color\tproperty"
+			],
+			[
+				"b-",
+				"bg-light"
+			],
+			[
+				"text-w",
+				"text-white \tBootstrap 4 Class"
+			],
+			[
+				"tra",
+				"traceback"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"imp",
+				"import"
+			],
+			[
+				"na",
+				"name\tAttr"
+			],
+			[
+				"sr",
+				"sr-only-focusable \tBootstrap 4 Class"
+			],
+			[
+				"btn-l",
+				"btn-lg \tBootstrap 4 Class"
+			],
+			[
+				"mt",
+				"mt-2 \tBootstrap 4 Class"
+			],
+			[
+				"toot",
+				"tooltip-bottom \tBootstrap 4 Class"
+			],
+			[
+				"pt-",
+				"pt-3 \tBootstrap 4 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Bookmarks: Clear All"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ht",
+				"HTMLBeautify"
+			],
+			[
+				"html\tb",
+				"HTMLBeautify"
+			],
+			[
+				"html\t",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"htm",
+				"HTMLBeautify"
+			],
+			[
+				"h",
+				"HTMLBeautify"
+			],
+			[
+				"ind",
+				"ReIndent: to 2"
+			],
+			[
+				"inde",
+				"AutoSetIndentation: Auto Set Indentation"
+			],
+			[
+				"indentat",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"autoin",
+				"AutoSetIndentation: Auto Set Indentation"
+			],
+			[
+				"setjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: Console"
+			],
+			[
+				"insa",
+				"Package Control: Install Package"
+			],
+			[
+				"Django:",
+				"Django: Set Virtual Environment"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/flavienhgs/_jekyll/news/LICENCE.txt",
+		"/home/flavienhgs/_templates_/_framework/bootstrap-4.0.0/dist/css/bootstrap.css",
+		"/home/flavienhgs/_templates_/_bootsnip/awesome_search_box.html",
+		"/home/flavienhgs/_jekyll/theme-jekyll/leonids/_layouts/post.html",
+		"/home/flavienhgs/_jekyll/theme-jekyll/leonids/_layouts/post_listing.html",
+		"/home/flavienhgs/_jekyll/theme-jekyll/leonids/_config.yml",
+		"/home/flavienhgs/_jekyll/theme-jekyll/leonids/_includes/head.html",
+		"/home/flavienhgs/_jekyll/theme-jekyll/leonids/_layouts/default.html",
+		"/home/flavienhgs/_jekyll/racine/blog.html",
+		"/home/flavienhgs/_docs_/_docum_/_liquid/README.md",
+		"/home/flavienhgs/_jekyll/racine/index.html",
+		"/home/flavienhgs/_jekyll/theme-jekyll/harmony/_config.yml",
+		"/home/flavienhgs/_jekyll/theme-jekyll/harmony/README.md",
+		"/home/flavienhgs/_jekyll/theme-jekyll/Travelogue/README.md",
+		"/home/flavienhgs/_jekyll/theme-jekyll/jekyller/Readme.md",
+		"/home/flavienhgs/_jekyll/theme-jekyll/resume-template-gh-pages/README.md",
+		"/home/flavienhgs/_jekyll/theme-jekyll/GridGallery/_posts/2014-04-06-five.markdown",
+		"/home/flavienhgs/_jekyll/theme-jekyll/GridGallery/README.md",
+		"/home/flavienhgs/_jekyll/Gemfile",
+		"/home/flavienhgs/_jekyll/unsta/_config.yml",
+		"/home/flavienhgs/_jekyll/unsta/Gemfile",
+		"/home/flavienhgs/_jekyll/racine/_config.yml",
+		"/home/flavienhgs/_jekyll/racine/Gemfile",
+		"/home/flavienhgs/_jekyll/racine/_layouts/post.html",
+		"/home/flavienhgs/_jekyll/racine/_layouts/default.html",
+		"/home/flavienhgs/_jekyll/racine/_layouts/author.html",
+		"/home/flavienhgs/_jekyll/racine/staff.html",
+		"/home/flavienhgs/.config/sublime-text-3/Packages/Jekyll/Jekyll.sublime-settings",
+		"/home/flavienhgs/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+		"/home/flavienhgs/.config/sublime-text-3/Packages/Jekyll/README.md",
+		"/home/flavienhgs/_jekyll/racine/_authors/hugs.md",
+		"/home/flavienhgs/_jekyll/racine/_authors/flavien.md",
+		"/home/flavienhgs/_jekyll/racine/_includes/navigation.html",
+		"/home/flavienhgs/_jekyll/racine/_posts/2019-06-19-lorem.md",
+		"/home/flavienhgs/_jekyll/racine/_posts/2019-06-20-lorem.md",
+		"/home/flavienhgs/_jekyll/racine/_posts/2019-06-21-lorem.md",
+		"/home/flavienhgs/_jekyll/racine/_posts/2019-08-19-lorem.md",
+		"/home/flavienhgs/_jekyll/racine/_posts/2019-08-20-lorem.md",
+		"/home/flavienhgs/_jekyll/racine/_sass/main.scss",
+		"/home/flavienhgs/_jekyll/racine/assets/css/styles.scss",
+		"/home/flavienhgs/_jekyll/racine/_data/navigation.yml",
+		"/home/flavienhgs/_jekyll/racine/about.md",
+		"/home/flavienhgs/_jekyll/racine/readme.md",
+		"/home/flavienhgs/_jekyll/racine/_site/readme.md",
+		"/home/flavienhgs/_jekyll/test/Gemfile",
+		"/home/flavienhgs/_django_/fondation/templates/pages/base/base_content.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/formation/_formation.content.html",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/custom-style.css",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/card-flip.css",
+		"/home/flavienhgs/_templates_/animated_sinin_and_signup_panel_animated_login_and_registeration_page_popup.html",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/layouts/_footer.html",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/layouts/_partenaire.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/about-ceo/_about-ceo-content.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/gallerie/_gallerie-content.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/base.html",
+		"/home/flavienhgs/_django_/fondation/templates/_assets/js.html",
+		"/home/flavienhgs/_django_/fondation/templates/_assets/css.html",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/navbar/_nav.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/gallerie/gallerie.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/about-ceo/about-ceo.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/pages.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/team/team.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/about-us/_about-us-content.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/errors/404.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/errors/500.html",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/bootstrap.css",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/navbar/_caroussel.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/about-us/about-us.html",
+		"/home/flavienhgs/_templates_/bootstrap-4.3.1/css/bootstrap.css",
+		"/home/flavienhgs/_templates_/bootstrap-4.3.1/js/bootstrap.js",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/sidebar/_include/_news.html",
+		"/home/flavienhgs/_django_/fondation/fondation/settings.py",
+		"/home/flavienhgs/_django_/fondation/sitemap.py",
+		"/home/flavienhgs/_django_/fondation/fondation/urls.py",
+		"/home/flavienhgs/_django_/fondation/templates/_includes/layouts/_more_news.html",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/js/ue-scroll.min.js",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/ue-scroll.min.css",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/js/scroll.min.js",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/scroll.min.css",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/error404.css",
+		"/home/flavienhgs/_django_/fondation/fondation/views.py",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/js/error404.js",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/js/menu-dropdown-animation.js",
+		"/home/flavienhgs/_django_/fondation/templates/pages/bibliotheque/_bibliotheque.content.html",
+		"/home/flavienhgs/_django_/venv/lib/python3.6/site-packages/django/urls/resolvers.py",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/urls.py",
+		"/home/flavienhgs/_django_/org/org/wsgi.py",
+		"/var/www/public/index.html",
+		"/home/flavienhgs/_django_/unsta/requirements.txt",
+		"/home/flavienhgs/_django_/unsta/unsta/settings.py",
+		"/home/flavienhgs/_django_/unsta/unsta/templates/sidebar_right.html",
+		"/home/flavienhgs/_django_/unsta/unsta/urls.py",
+		"/home/flavienhgs/_django_/unsta/unsta/templates/base.html",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/iconic.min.css",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/css/open-iconic-bootstrap.css",
+		"/home/flavienhgs/.config/sublime-text-3/Packages/AdvancedNewFile/README.md",
+		"/home/flavienhgs/_django_/fondation/templates/pages/formation/formation.html",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/boo/js/jquery.filter.js",
+		"/home/flavienhgs/_django_/fondation/drmoussoh/static/drmoussoh/css/carousel.css",
+		"/home/flavienhgs/_django_/fondation/templates/pages/bibliotheque/bibliotheque.html",
+		"/home/flavienhgs/_django_/fondation/templates/pages/base/_top_content.html",
+		"/home/flavienhgs/_templates_/bootstrap-4.0.0/docs/4.0/examples/blog/blog.css",
+		"/home/flavienhgs/_templates_/bootstrap-4.0.0/docs/4.0/examples/blog/index.html",
+		"/home/flavienhgs/_templates_/navbar-mega-menu/script.js",
+		"/home/flavienhgs/_templates_/navbar-mega-menu/index.html",
+		"/home/flavienhgs/_templates_/navbar-mega-menu/style.css",
+		"/home/flavienhgs/_templates_/_html.css/_fullmoonblue_/css/style.css",
+		"/home/flavienhgs/_templates_/bootstrap-4.0.0/docs/4.0/examples/carousel/index.html",
+		"/home/flavienhgs/_templates_/bootstrap-3.3.6/docs/examples/carousel/index.html",
+		"/home/flavienhgs/_templates_/bootstrap-3.3.6/docs/examples/theme/index.html",
+		"/home/flavienhgs/_templates_/bootstrap-3.3.6/docs/assets/js/ie-emulation-modes-warning.js",
+		"/home/flavienhgs/_templates_/_html.css/agros/index-1.html",
+		"/home/flavienhgs/_templates_/bootstrap-3.3.6/docs/index.html",
+		"/home/flavienhgs/_templates_/_html.css/agros/index.html",
+		"/home/flavienhgs/_templates_/_html.css/agros/search/search.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/ie.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/isotope.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/style.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/touchTouch.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/search/search.js",
+		"/home/flavienhgs/_templates_/_html.css/agros/js/camera.js",
+		"/home/flavienhgs/_templates_/_html.css/agros/images/Thumbs.db",
+		"/home/flavienhgs/_docs_/_coding/_code.html5.css3/index.html",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/camera.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/bootstrap.css",
+		"/home/flavienhgs/_templates_/_html.css/agros/css/bootstrap-responsive.css",
+		"/home/flavienhgs/_django_/org/fondation/static/fondation/css/style.css",
+		"/home/flavienhgs/_django_/org/templates/pages/base.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"default_dir": "/home/flavienhgs/_templates_/_html/_templates/hipster-as-f-cards/presentation-assets/css",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_config.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

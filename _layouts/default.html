@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.language | default: site.language | default: "fr" }}">
+    {% include head.html %}
+
+    <body>
+        <div class="wrapper">
+            {% include nav.html %}
+            <div class="container">
+                {% include searchbox.html %} <!-- searchbox -->
+
+                <div class="masonry-container">
+                    {{ content }}<!-- content page -->
+                </div>
+            </div><!-- end container -->
+
+            {% include footer.html %}
+        </div>
+    </body>
+    {% include js.html %}
+</html>

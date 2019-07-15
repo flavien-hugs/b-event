@@ -1,0 +1,84 @@
+#
+##################################
+#     Site configuration    #
+##################################
+#
+
+title: unsta
+author: flavien-hugs
+email: unsta@pm.me
+<<<<<<< HEAD
+language: "fr"
+baseurl: ""
+description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie Jekyll.
+url: "" # the base hostname & protocol for your site
+paginate: 5 # Number of posts on each page
+paginate_path: "/page/:num" # links format for pagination
+keywords: ["unsta", "Jekyll"]
+=======
+authors : flavien hugs
+description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie unsta.
+keywords: ["unsta", "Jekyll"]
+markdown: kramdown
+
+default:
+    values:
+        image: true
+
+>>>>>>> 71aad777b287b7220e14dbcded2547dc885929c6
+
+#
+##################################
+# Jekyll and build setting       #
+##################################
+#
+
+timezone: Africa
+<<<<<<< HEAD
+markdown: kramdown
+highlighter: rouge
+sitemap: true # generate sitemap.xml
+feed:
+    path: atom.xml
+sass:
+    sass_dir: _sass
+    style: compressed
+
+excerpt_separator: <!--more-->
+permalink:         blog/:year-:month/:title
+livereload: true
+
+kramdown:
+    auto_ids: true
+    footnote_nr: 1
+    entity_output: as_char
+    toc_levels: 1..6
+    enable_coderay: false
+
+
+#
+###################################
+# Site owner configuration
+####################################
+#
+
+owner:
+    name: unsta
+    author: flavien-hugs
+    avatar:
+    job: "A jekyll theme"
+    bio: "A simple and awesome blog theme powered by jekyll with using template hipster-cards"
+    email:
+
+
+#
+###################################
+# gems
+####################################
+#
+
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+=======
+highlighter:       rouge
+
+>>>>>>> 71aad777b287b7220e14dbcded2547dc885929c6

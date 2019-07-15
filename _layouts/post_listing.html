@@ -1,0 +1,63 @@
+---
+layout: default
+---
+    {% for post in site.posts %}
+        <section class="card-box col-md-4 col-sm-6">
+            <div class="card">
+                <div class="header">
+                    {% if post.image.feature %}
+                        <img class="img-responsive" src=
+                            {% if post.image.feature  %}
+                                "{{site.url}}/unsta/assets/img/{{post.image.feature}}"
+                            {% endif %} alt="{{post.title}} feature image">
+                            <!-- /.image content -->
+                    {% endif %}
+
+                    <h6 class="category">
+                        {% if post.categories.size > 0 %}
+                           {% for cat in post.categories %}
+                               <span class="label label-danger">
+                                    <a href="{{site.url}}/unsta/categories/#{{cat}}">
+                                       <i class="glyphicon glyphicon-bookmark"></i> {{cat}}
+                                    </a>
+                                </span>
+                           {% endfor %}
+                        {% endif %}
+                    </h6> <!-- end content category -->
+
+                    <div class="filter"></div>
+
+                    <div class="actions">
+                        <a href="{{site.url}}/unsta/{{ post.url }}" title="{{post.title}}">
+                            <button class="btn btn-round btn-fill btn-neutral btn-modern">
+                                Lire l'article
+                            </button>
+                        </a>
+                    </div>
+                </div><!-- end card header-->
+
+                <div class="content">
+                    <h5 class="title">
+                        <a href="{{site.url}}/unsta/{{ post.url }}" title="{{post.title}}">
+                            {{ post.title}}
+                        </a><br><br>
+                        <p>
+                            <i class="glyphicon glyphicon-calendar"></i>
+                            {{ post.date | date_to_string}} |
+                            {% if post.author %}
+                                {% assign author = site.data.authors[post.author] %}
+                            {% else %}
+                                {% assign author = site.owner %}
+                            {% endif %}
+                        </p>
+                    </h5><!-- end content title -->
+
+                    {% if post.excerpt %}
+                        <p class="description">
+                            {{ post.excerpt | truncatewords:25}}
+                        </p>
+                    {% endif %} <!-- end content article -->
+                </div>
+            </div> <!-- end card -->
+        </section>
+    {% endfor %}

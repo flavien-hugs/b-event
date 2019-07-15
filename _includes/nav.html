@@ -1,0 +1,51 @@
+<section class="header-border" role="navigation">
+    <header class="header">
+        <div class="container">
+            <div class="header-left">
+                <p class="header-title">
+                    <a href="{{ site.url }}/">_{{ site.title }}</a>
+                </p>
+                <p>Pythoniste and Web Developper</p>
+            </div>
+
+            <div class="header-right">
+                <ul class="header-ul">
+                    <li><i class="fa fa-phone"></i> (+225) 00 000 000</li>
+                    <li><i class="fa fa-envelope"></i><a href="#">unsta@pm.me</a></li>
+                </ul>
+
+                <nav>
+                    <ul class="header-ul">
+                        <li>
+                            <a href="/" class="strong"
+                                {% if page.url == "/" %}
+                                   class="current"
+                                {% endif %}>
+                                Blog
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/contact" class="strong"
+                                {% if page.url == "/contact" %}
+                                   class="current"
+                                {% endif %}>
+                                Contact
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="/about" class="strong"
+                                {% if page.url == "/about" %}
+                                   class="current"
+                                {% endif %}>
+                                A propos
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</section><!-- /.top nav -->
+
