@@ -4,7 +4,7 @@
 ##################################
 #
 
-title: unsta
+title: b-event
 author: flavien-hugs
 email: unsta@pm.me
 language: "fr"
@@ -23,7 +23,6 @@ default:
     values:
         image: true
 
-
 #
 ##################################
 # Jekyll and build setting       #
@@ -40,7 +39,7 @@ sass:
     style: compressed
 
 excerpt_separator: <!--more-->
-permalink:         blog/:year-:month/:title
+permalink:         blog/:title
 livereload: true
 
 kramdown:

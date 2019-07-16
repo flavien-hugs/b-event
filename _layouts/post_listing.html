@@ -8,7 +8,7 @@ layout: default
                     {% if post.image.feature %}
                         <img class="img-responsive" src=
                             {% if post.image.feature  %}
-                                "{{site.url}}/unsta/assets/img/{{post.image.feature}}"
+                                "{{site.url}}/assets/img/{{post.image.feature}}"
                             {% endif %} alt="{{post.title}} feature image">
                             <!-- /.image content -->
                     {% endif %}
@@ -17,7 +17,7 @@ layout: default
                         {% if post.categories.size > 0 %}
                            {% for cat in post.categories %}
                                <span class="label label-danger">
-                                    <a href="{{site.url}}/unsta/categories/#{{cat}}">
+                                    <a href="{{site.url}}/categories/#{{cat}}">
                                        <i class="glyphicon glyphicon-bookmark"></i> {{cat}}
                                     </a>
                                 </span>
@@ -28,7 +28,7 @@ layout: default
                     <div class="filter"></div>
 
                     <div class="actions">
-                        <a href="{{site.url}}/unsta/{{ post.url }}" title="{{post.title}}">
+                        <a href="{{site.url}}/{{ post.url }}" title="{{post.title}}">
                             <button class="btn btn-round btn-fill btn-neutral btn-modern">
                                 Lire l'article
                             </button>
@@ -38,17 +38,12 @@ layout: default
 
                 <div class="content">
                     <h5 class="title">
-                        <a href="{{site.url}}/unsta/{{ post.url }}" title="{{post.title}}">
+                        <a href="{{site.url}}/{{ post.url }}" title="{{post.title}}">
                             {{ post.title}}
                         </a><br><br>
                         <p>
                             <i class="glyphicon glyphicon-calendar"></i>
-                            {{ post.date | date_to_string}} |
-                            {% if post.author %}
-                                {% assign author = site.data.authors[post.author] %}
-                            {% else %}
-                                {% assign author = site.owner %}
-                            {% endif %}
+                            {{ post.date | date_to_string}} | {{ site.owner.author }}
                         </p>
                     </h5><!-- end content title -->
 

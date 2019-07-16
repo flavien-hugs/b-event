@@ -7,17 +7,17 @@
                     <nav>
                             <ul>
                                 <li>
-                                    <a href="{{ site.url }}/">_{{ site.title }}</a>
+                                    <a href="{{ site.url }}">{{ site.title }}</a>
                                 </li>
 
                                 <li>
-                                    <a href="#">Mes Projets</a>
+                                    <a href="{{ site.url }}/#">Mes Projets</a>
                                 </li>
                                 <li>
-                                    <a href="#">Portfolio</a>
+                                    <a href="{{ site.url }}/#">Portfolio</a>
                                 </li>
                                 <li>
-                                    <a href="/about">A propos</a>
+                                    <a href="{{ site.url }}/about">A propos</a>
                                 </li>
                             </ul>
                     </nav>
@@ -30,16 +30,16 @@
                          <nav>
                             <ul>
                                 <li>
-                                    <a href="/contact">Contact</a>
+                                    <a href="{{ site.url }}/contact">Contact</a>
                                 </li>
                                 <li>
-                                    <a href="#">How it works</a>
+                                    <a href="{{ site.url }}/#">How it works</a>
                                 </li>
                                 <li>
-                                    <a href="#">Terms &amp; Conditions</a>
+                                    <a href="{{ site.url }}/#">Terms &amp; Conditions</a>
                                 </li>
                                 <li>
-                                    <a href="#">Company Policy</a>
+                                    <a href="{{ site.url }}/#">Company Policy</a>
                                 </li>
                             </ul>
                         </nav>
@@ -52,13 +52,13 @@
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
+                                        <i class="fa fa-twitter"></i> <b>Get Shit Done</b> The best kit in the market is here, just give it a try and let us...
                                         <hr class="hr-small">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fas fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
+                                        <i class="fa fa-twitter"></i> We've just been featured on <b> Awwwards Website</b>! Thank you everybody for...
                                     </a>
                                 </li>
                             </ul>
@@ -95,7 +95,7 @@
 
         <div class="copyright">
             <p>
-                <a href="{{site.url }}/">_{{ site.title }}</a> {{site.time | date : '%Y'}}. Powered by <a href="http://jekyllrb.com/">Jekyll</a>
+                <a href="{{site.url }}">{{ site.title }}</a> {{site.time | date : '%Y'}}. Powered by <a href="http://jekyllrb.com/">Jekyll</a>
             </p>
         </div>
     </div>
