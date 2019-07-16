@@ -5,13 +5,10 @@
 {% endif %}
 
 {% if page.excerpt %}
-<<<<<<< HEAD
     {% capture description %}
         {{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}
     {% endcapture %}
-=======
   {% capture description %}{{ page.excerpt | strip_html | strip_newlines | truncate: 30 }}{% endcapture %}
->>>>>>> 71aad777b287b7220e14dbcded2547dc885929c6
 {% else %}
   {% capture description %}{{ site.description }}{% endcapture %}
 {% endif %}
@@ -51,6 +48,6 @@
     <!-- fonts and icons -->
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display|Raleway:700,100,400|Roboto:400,700|Playfair+Display+SC:400,700' rel='stylesheet' type='text/css'>
 
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 

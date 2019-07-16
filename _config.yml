@@ -7,7 +7,6 @@
 title: unsta
 author: flavien-hugs
 email: unsta@pm.me
-<<<<<<< HEAD
 language: "fr"
 baseurl: ""
 description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie Jekyll.
@@ -15,7 +14,6 @@ url: "" # the base hostname & protocol for your site
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 keywords: ["unsta", "Jekyll"]
-=======
 authors : flavien hugs
 description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie unsta.
 keywords: ["unsta", "Jekyll"]
@@ -25,7 +23,6 @@ default:
     values:
         image: true
 
->>>>>>> 71aad777b287b7220e14dbcded2547dc885929c6
 
 #
 ##################################
@@ -33,9 +30,7 @@ default:
 ##################################
 #
 
-timezone: Africa
-<<<<<<< HEAD
-markdown: kramdown
+timezone: Africa/Nairobi
 highlighter: rouge
 sitemap: true # generate sitemap.xml
 feed:
@@ -78,7 +73,5 @@ owner:
 #
 
 plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
-=======
 highlighter:       rouge
 
->>>>>>> 71aad777b287b7220e14dbcded2547dc885929c6
