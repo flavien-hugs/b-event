@@ -1,9 +1,9 @@
-unsta
+![unsta](https://flavien-hugs.github.io/unsta)]&nbsp;
 =====
 
-[![Live Demo](http://img.shields.io/badge/Travelogue-DEMO-7D8866.svg?style=flat)]
-(https://flavien-hugs.github.io/unsta)]&nbsp;
-[![The MIT License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](#license)&nbsp;
+![Live Demo](https://img.shields.io/badge/unsta-live--demo-orange.svg)
+
+![The MIT License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](#license)&nbsp;
 
 [unsta](https://flavien-hugs.github.io/unsta/) un blog [Jekyll](http://jekyllrb.com/) basé sur le template hispter-cards. C'est une plateforme qui se veut rassembler toutes les activités, évènements de la ville de Bouaké/Côte d'Ivoire.
 
