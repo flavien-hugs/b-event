@@ -1,4 +1,4 @@
-[b-event](https://flavien-hugs.github.io/b-event/" target="_blank")&nbsp;
+[b-event](https://flavien-hugs.github.io/b-event/ target="_blank")&nbsp;
 =====
 
 ![[b-event](<a href="https://flavien-hugs.github.io/b-event/" target="_blank"></a>)](https://img.shields.io/badge/unsta-live--demo-orange.svg?style=flat)
