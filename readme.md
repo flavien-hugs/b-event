@@ -19,4 +19,4 @@ Visitez le site Web de [Jekyll](http://jekyllrb.com/) pour plus d'informations.
 ### Autheur
 Flavien-hugs (Pythonist and Developper Web et Mobile)
 
-    - **[Twitter](https://twitter.com/flavien_hugs)**
+    **Twitter : [@flavien-hugs](https://twitter.com/flavien_hugs)**
