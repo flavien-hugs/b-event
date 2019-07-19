@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-    {% for post in site.posts %}
+    {% assign posts = site.posts | sort: 'date' | reverse %}
+    {% for post in posts %}
         <section class="card-box col-md-4 col-sm-6">
             <div class="card">
                 <div class="header">
                     {% if post.image.feature %}
                         <img class="img-responsive" src=
                             {% if post.image.feature  %}
-                                "{{site.url}}/assets/img/{{post.image.feature}}"
-                            {% endif %} alt="{{post.title}} feature image">
+                                "{{site.url}}/assets/img{{post.image.feature | relative_url}}"
+                            {% endif %} alt="{{post.title | slugify}} feature image">
                             <!-- /.image content -->
                     {% endif %}
 
@@ -37,16 +38,21 @@ layout: default
                 </div><!-- end card header-->
 
                 <div class="content">
-                    <h5 class="title">
+                    <h4 class="title">
                         <a href="{{site.url}}{{ post.url }}" title="{{post.title}}">
                             {{ post.title}}
-                        </a><br><br>
-                        <p>
-                            <i class="glyphicon glyphicon-calendar"></i>
-                            {{ post.date | date_to_string}} | {{ site.owner.author }}
-                        </p>
-                    </h5><!-- end content title -->
+                        </a>
+                    </h4>
+                    <p>
+                        <i class="glyphicon glyphicon-calendar" style="color:#AAA;"></i>
+                        {{ post.date | date_to_string}}
 
+                        <i class="glyphicon glyphicon-user" style="color:#AAA;"></i> {{ site.owner.author }}
+
+                        <i class="fa fa-eye" style="color:#AAA;"></i>
+                    </p>
+                    <!-- end content title -->
+                    <hr>
                     {% if post.excerpt %}
                         <p class="description">
                             {{ post.excerpt | truncatewords:25}}

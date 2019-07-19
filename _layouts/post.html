@@ -1,19 +1,49 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="col-md-12 blog-post" style="background-color:white;">
-    <h4 class="title-modern" title="{{page.title}}">
-        {{ page.title }} | <i class="glyphicon glyphicon-bookmark"></i>  <a href="{{site.url}}/categories/#{{cat}}">
-            {{ page.categories | array_to_sentence_string }}
-        </a> | <i class="glyphicon glyphicon-calendar"></i> {{ page.date | date: "%-d %b %Y"}}
-    </h4><!-- /.post title-->
+    <div class="col-md-8 blog-post" style="background-color:white;">
+        <h3 class="title" title="{{page.title}}">{{ page.title }} </h3>
+            <i class="glyphicon glyphicon-bookmark" style="color:#AAA;"></i>
+            <a href="{{site.url}}/categories/#{{cat}}">
+                {{ page.categories | array_to_sentence_string }}
+            </a>
 
-    <hr>
+            <i class="glyphicon glyphicon-calendar" style="color:#AAA;"></i>
+            {{ page.date | date_to_string }}
+            <i class="glyphicon glyphicon-user" style="color:#AAA;"></i>
+            {{ site.owner.author }}
+            <i class="fa fa-eye" style="color:#AAA;"></i>
 
-    <p class="description">
-        {{ content }}
-    </p><!-- /.post content-->
-</div>
+        <hr>
+
+        <p class="description">
+            {{ content }}
+        </p><!-- /.post content-->
+    </div>
+
+    <div class="card-box col-md-4 col-sm-6">
+        <div class="card">
+            <div class="header">
+                <img src="{{ site.url }}/assets/img/enfant.png"/>
+                <div class="social-line social-line-visible" data-buttons="3">
+                    <button class="btn btn-social btn-twitter">
+                    <a href="https://twitter.com/flavien_hugs">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    </button>
+                    <button class="btn btn-social btn-github">
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    </button>
+                    <button class="btn btn-social btn-facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    </button>
+                </div>
+            </div>
+            <div class="content">
+                <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
+            </div>
+            </div> <!-- end card -->
+        </div>
 
 

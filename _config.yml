@@ -8,9 +8,9 @@ title: b-event
 author: flavien-hugs
 email: unsta@pm.me
 language: "fr"
-baseurl: "https://flavien-hugs.github.io/b-event"
+baseurl: ""
 description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie Jekyll.
-url: "https://flavien-hugs.github.io/b-event" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 keywords: ["unsta", "Jekyll"]
