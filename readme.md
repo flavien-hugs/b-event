@@ -9,6 +9,7 @@
 ### Prise en main
 
 La plateforme fournit une configuration complète de Jekyll. Téléchargez-le et démarrez le serveur Jekyll.
+
     - git clone https://github.com/flavien-hugs/unsta.git
     - cd unsta-master
     - bundler exec jekyll serve or bundler exec jekyll s
@@ -17,4 +18,5 @@ Visitez le site Web de [Jekyll](http://jekyllrb.com/) pour plus d'informations.
 
 ### Autheur
 Flavien-hugs (Pythonist and Developper Web et Mobile)
+
     - **[Twitter](https://twitter.com/flavien_hugs)**
