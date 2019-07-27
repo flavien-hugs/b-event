@@ -9,7 +9,7 @@ layout: default
                     {% if post.image.feature %}
                         <img class="img-responsive" src=
                             {% if post.image.feature  %}
-                                "{{site.url}}/assets/img{{post.image.feature | relative_url}}"
+                                "{{site.url}}/assets/img/{{post.image.feature}}"
                             {% endif %} alt="{{post.title | slugify}} feature image">
                             <!-- /.image content -->
                     {% endif %}
