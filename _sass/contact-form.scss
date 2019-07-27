@@ -1,0 +1,43 @@
+/******
+***** Contact sectiom *****
+*******/
+
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center;
+}
+
+#contact{
+  font-family: 'Teko', sans-serif;
+}
+
+.contact-section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+
+label{
+  line-height: 1em;
+  font-weight: normal;
+}
+
+label, .form-control {
+  font-size: 1.3em;
+}
+
+.form-control{
+  color: #080808;
+}
+
+.submit {
+  float: right;
+}
