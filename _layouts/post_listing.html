@@ -17,10 +17,14 @@ layout: default
                     <h6 class="category">
                         {% if post.categories.size > 0 %}
                            {% for cat in post.categories %}
-                               <span class="label label-danger">
+                                <span class="label label-danger">
                                     <a href="{{site.url}}/categories/#{{cat}}">
-                                       <i class="glyphicon glyphicon-bookmark"></i> {{cat}}
+                                       <i class="glyphicon glyphicon-tags"></i>
+                                       {{cat}}
                                     </a>
+                                    {% unless forloop.last %}
+                                        <span></span>
+                                    {% endunless %}
                                 </span>
                            {% endfor %}
                         {% endif %}
@@ -40,22 +44,17 @@ layout: default
                 <div class="content">
                     <h4 class="title">
                         <a href="{{site.url}}{{ post.url }}" title="{{post.title}}">
-                            {{ post.title}}
+                            {{ post.title | link_to:post.url }}
                         </a>
                     </h4>
-                    <p>
-                        <i class="glyphicon glyphicon-calendar" style="color:#AAA;"></i>
-                        {{ post.date | date_to_string}}
-
-                        <i class="glyphicon glyphicon-user" style="color:#AAA;"></i> {{ site.owner.author }}
-
-                        <i class="fa fa-eye" style="color:#AAA;"></i>
-                    </p>
+                    <hr>
+                    <h5>Informations utiles</h5>
+                    <p>{% include post-info.html %}</p>
                     <!-- end content title -->
                     <hr>
                     {% if post.excerpt %}
                         <p class="description">
-                            {{ post.excerpt | truncatewords:25}}
+                            {{ post.excerpt | truncatewords:20}}
                         </p>
                     {% endif %} <!-- end content article -->
                 </div>

@@ -2,7 +2,7 @@
 
 <script src="{{ site.url }}/assets/js/jquery-1.10.2.js" type="text/javascript"></script>
 <script src="{{ site.url }}/assets/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="{{ site.url }}/assets/js/hipster-cards.js"></script>
+<script src="{{ site.url }}/assets/js/hipster-cards.js" type="text/javascript"></script>
 
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -10,6 +10,21 @@
 <!--  Just for demo  -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
 <script src="{{ site.url }}/assets/js/demo.js"></script>
+
+<!-- Script pointing to search-script.js -->
+<script src="{{ site.url }}/assets/js/search.min.js" type="text/javascript"></script>
+<!-- Configuration -->
+<script>
+    $().ready(function() {
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search'),
+            resultsContainer: document.getElementById('results-container'),
+            searchResultTemplate: '<div style="z-index: 10000; background-color:white;" ><ul><a href="{url}">{title}</a></ul></div>',
+            json: '/search.json'
+        })
+    });
+</script>
+
 
 <script>
     $().ready(function(){

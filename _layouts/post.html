@@ -4,17 +4,13 @@ layout: page
 
     <div class="col-md-8 col-sm-6 blog-post" style="background-color:white;">
         <h3 class="title" title="{{page.title}}">{{ page.title }} </h3>
-            <i class="glyphicon glyphicon-bookmark" style="color:#AAA;"></i>
+
+            <i class="glyphicon glyphicon-tags" style="color:#AAA;"></i>
+
             <a href="{{site.url}}/categories/#{{cat}}">
-                {{ page.categories | array_to_sentence_string }}
+                 {{ page.categories | join: ', ' }}
             </a>
-
-            <i class="glyphicon glyphicon-calendar" style="color:#AAA;"></i>
-            {{ page.date | date_to_string }}
-            <i class="glyphicon glyphicon-user" style="color:#AAA;"></i>
-            {{ site.owner.author }}
-            <i class="fa fa-eye" style="color:#AAA;"></i>
-
+            <p>{% include post-info.html %}</p>
         <hr>
 
         <p class="description">

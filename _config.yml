@@ -9,13 +9,12 @@ author: flavien-hugs
 email: unsta@pm.me
 language: "fr"
 baseurl: ""
-description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie Jekyll.
+description: Un site basée sur Jekyll.
 url: "" # the base hostname & protocol for your site
 paginate: 5 # Number of posts on each page
 paginate_path: "/page/:num" # links format for pagination
 keywords: ["unsta", "Jekyll"]
-authors : flavien hugs
-description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie unsta.
+author : flavien hugs
 keywords: ["unsta", "Jekyll"]
 markdown: kramdown
 
@@ -39,7 +38,7 @@ sass:
     style: compressed
 
 excerpt_separator: <!--more-->
-permalink:         blog/:title
+permalink:         agenda/:title
 livereload: true
 
 kramdown:
@@ -59,10 +58,19 @@ kramdown:
 owner:
     name: unsta
     author: flavien-hugs
-    avatar:
-    job: "A jekyll theme"
-    bio: "A simple and awesome blog theme powered by jekyll with using template hipster-cards"
+    job: "Centre de technologie"
     email:
+
+
+#
+###################################
+# algolia
+####################################
+#
+algolia:
+    application_id: QNBVTXS8I5
+    index_name: b-event
+    search_only_api_key: c033f88fa6c7a4979cee0dceafb979b3
 
 
 #
@@ -71,6 +79,4 @@ owner:
 ####################################
 #
 
-plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]
-highlighter:       rouge
-
+plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-algolia]

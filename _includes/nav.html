@@ -2,10 +2,10 @@
     <header class="header">
         <div class="container">
             <div class="header-left">
-                <h2 class="header-title">
+                <span class="content-header wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
                     <a href="{{ site.url }}">{{ site.title }}</a>
-                </h2>
-                <p>Actualités des activités de la ville de Bouaké.</p>
+                </span>
+                <p>Agenda des activités de la Ville de Bouaké.</p>
             </div>
 
             <div class="header-right">
@@ -21,16 +21,7 @@
                                 {% if page.url == "{{ site.url }}/" %}
                                    class="current"
                                 {% endif %}>
-                                Blog
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="{{ site.url }}/contact" class="strong"
-                                {% if page.url == "{{ site.url }}/contact" %}
-                                   class="current"
-                                {% endif %}>
-                                Contact
+                                Agenda
                             </a>
                         </li>
 

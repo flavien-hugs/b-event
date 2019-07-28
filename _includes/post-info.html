@@ -1,0 +1,44 @@
+
+            <span class="glyphicon glyphicon-calendar" style="color:#AAA;">
+                {% if post %}
+                    {{ post.date | date: format}}
+                {% else %}
+                    {{ page.date | date_to_tring }}
+                {% endif %}
+            </span>
+
+            <span class="fa fa-clock-o" aria-hidden="true" style="color:#AAA;">
+                {% if post %}
+                    {{ post.heure }}
+                {% else %}
+                    {{ page.heure }}
+                {% endif %}
+            </span>
+            <br>
+
+            <span class="glyphicon glyphicon-map-marker" style="color:#AAA;">
+                {% if post %}
+                    {{ post.lieu }}
+                {% else %}
+                    {{ page.lieu }}
+                {% endif %}
+            </span><br>
+
+            <span class="glyphicon glyphicon-user" style="color:#AAA;">
+                {% if post %}
+                    {{ post.author }}
+                {% else %}
+                    {{ page.author }}
+                {% endif %}
+            </span>
+
+            <span class="fa fa-eye" style="color:#AAA;">
+                {% assign words = page.content | number_of_words  %}
+                {% if words %}
+                    vue {{ words | plus: 250 | divided_by: 180 | append: " fois" }}
+                {% else %}
+                    vues {{ words | divided_by: 180 | append: " fois" }}
+                {% endif %}
+            </span>
+
+

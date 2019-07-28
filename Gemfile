@@ -10,9 +10,10 @@ gem 'jekyll'
 
 group :jekyll_plugins do
     gem 'jekyll-paginate'
+    gem 'liquid-c'
     gem 'jekyll-sitemap'
     gem 'jekyll-feed'
     gem 'jekyll-seo-tag'
     gem 'jekyll-admin'
-    gem 'jekyll-compose'
+    gem 'jekyll-algolia'
 end
