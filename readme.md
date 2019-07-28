@@ -16,7 +16,7 @@ La plateforme fournit une configuration complète de Jekyll. Téléchargez-le et
 
 Visitez le site Web de [Jekyll](http://jekyllrb.com/) pour plus d'informations.
 
-### Autheur
+### Auteur
 Flavien-hugs (Pythonist et Developpeur Web et Mobile)
 
 **Twitter : [@flavien-hugs](https://twitter.com/flavien_hugs)**
