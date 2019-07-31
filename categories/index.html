@@ -4,6 +4,7 @@ title: Categories
 permalink: /categories/
 ---
 
+
 {% for cat in site.categories %}
     <div class="card-box col-md-4 col-sm-6">
         {% capture cat_name %}{{ cat | first }}{% endcapture %}
@@ -12,6 +13,7 @@ permalink: /categories/
                 <div class="category">
                     <h6 class="label label-danger" id="{{ cat_name | slugize }}">
                         {{ cat_name }}
+                        (<span>{{ site.categories[cat_name].size }}</span>)
                     </h6>
                 </div>
                 {% for post in site.categories[cat_name] %}

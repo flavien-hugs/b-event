@@ -2,21 +2,51 @@
 layout: page
 ---
 
-    <div class="col-md-8 col-sm-6 blog-post" style="background-color:white;">
+    <article class="col-md-8 col-sm-6 blog-post" style="background-color:white;">
         <h3 class="title" title="{{page.title}}">{{ page.title }} </h3>
+            {% if page.categories.size >=1 %}
+                {% for cat in page.categories  %}
+                    <span class="label">
+                        <a href="{{ site.url }}/categories#{{ cat }}" title="{{ cat }}">
+                            <i class="glyphicon glyphicon-tags"></i>
+                            {{ cat }}
+                        </a>
+                        {% unless forloop.last %}
+                            <span></span>
+                        {% endunless %}
+                    </span>
+                {% endfor %}
+            {% endif %}
 
-            <i class="glyphicon glyphicon-tags" style="color:#AAA;"></i>
-
-            <a href="{{site.url}}/categories/#{{cat}}">
-                 {{ page.categories | join: ', ' }}
-            </a>
-            <p>{% include post-info.html %}</p>
+            {% include post-info.html %}
         <hr>
 
         <p class="description">
             {{ content }}
         </p><!-- /.post content-->
-    </div>
+
+        <div class="pagination">
+            <ul class="pagination-list">
+                {% if page.previous.url %}
+                <li class="previous-posts">
+                    <a class="previous-link" href="{{ site.url }}{{ page.previous.url }}" title="{{ page.page.previous.title }}">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <h6>{{ page.previous.title }}</h6>
+                    </a>
+                </li>
+                {% endif %}
+
+                {% if page.next.url %}
+                <li class="older-posts">
+                    <a class="older-link" href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">
+                        <h6>{{ page.next.title }}</h6>
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </article>
 
     {% include sidebar.html %}
 

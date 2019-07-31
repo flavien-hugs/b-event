@@ -1,87 +1,66 @@
-#
-##################################
-#     Site configuration    #
-##################################
-#
+#------------------------------
+# Configuration du site
 
 title: b-event
-author: flavien-hugs
-email: unsta@pm.me
 language: "fr"
 baseurl: ""
-description: Un site basée sur Jekyll.
-url: "" # the base hostname & protocol for your site
-
-baseurl: "https://flavien-hugs.github.io/b-event"
-description: Un simple blog et site vitrine basée sur Jekyll pour le Centre de Technologie Jekyll.
-url: "https://flavien-hugs.github.io/b-event" # the base hostname & protocol for your site
-
-paginate: 5 # Number of posts on each page
-paginate_path: "/page/:num" # links format for pagination
+url: ""
+description: Un site web (Agenda) pour répertorier toutes les activités de la ville.
 keywords: ["unsta", "Jekyll"]
-author : flavien hugs
-keywords: ["unsta", "Jekyll"]
+
+
+
+#---------------------
+# A propos de l'auteur
+author: flavien-hugs
+email: unsta@pm.me
+
+
+
+#--------------------------
+# Google Analytics
+google-analytics: # ajout de l'identifiant du site
+
+
+
+#-------------------
+# configuration du build
 markdown: kramdown
-
-default:
-    values:
-        image: true
-
-#
-##################################
-# Jekyll and build setting       #
-##################################
-#
-
-timezone: Africa/Nairobi
-highlighter: rouge
-sitemap: true # generate sitemap.xml
-feed:
-    path: atom.xml
-sass:
-    sass_dir: _sass
-    style: compressed
-
-excerpt_separator: <!--more-->
-permalink:         agenda/:title
-livereload: true
-
 kramdown:
     auto_ids: true
     footnote_nr: 1
     entity_output: as_char
     toc_levels: 1..6
     enable_coderay: false
+permalink: ':title'
+plugins:
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+paginate: 7
+paginate_path: "/page/:num"
+
+include:
+    - _pages
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+timezone: Africa/Nairobi
+highlighter: rouge
+sitemap: true
+feed:
+    path: atom.xml
+excerpt_separator: <!--more-->
+livereload: true
 
 
-#
-###################################
+
+#-----------------------------
 # Site owner configuration
-####################################
-#
-
 owner:
     name: unsta
     author: flavien-hugs
-    job: "Centre de technologie"
+    job: "Centre de technologie unsta"
     email:
-
-
-#
-###################################
-# algolia
-####################################
-#
-algolia:
-    application_id: QNBVTXS8I5
-    index_name: b-event
-    search_only_api_key: c033f88fa6c7a4979cee0dceafb979b3
-
-
-#
-###################################
-# gems
-####################################
-#
-
-plugins: [jekyll-paginate, jekyll-sitemap, jekyll-feed]

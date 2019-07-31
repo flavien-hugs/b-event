@@ -1,0 +1,42 @@
+<section class="header-border" role="navigation">
+    <header class="header-">
+        <div class="container">
+            <div class="header-left">
+                <span class="content-header wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
+                    <a href="{{ site.url }}">{{ site.title }}</a>
+                </span>
+                <p>Agenda des activités de la Ville de Bouaké.</p>
+            </div>
+
+            <div class="header-right">
+                <ul class="header-ul">
+                    <li><i class="fa fa-phone" style="color:#AAA"></i>(+225) 00 000 000</li>
+                    <li><i class="fa fa-envelope" style="color:#AAA"></i><a href="#">unsta@pm.me</a></li>
+                </ul>
+
+                <nav>
+                    <ul class="header-ul">
+                        <li>
+                            <a href="{{ site.url }}/" class="strong"
+                                {% if page.url == "{{ site.url }}/" %}
+                                   class="current"
+                                {% endif %}>
+                                Agenda
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{ site.url }}/about" class="strong"
+                                {% if page.url == "{{ site.url }}/about" %}
+                                   class="current"
+                                {% endif %}>
+                                A propos
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</section><!-- /.top nav -->
+

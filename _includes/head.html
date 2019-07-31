@@ -14,7 +14,7 @@
 {% endif %}
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ site.keywords | array_to_sentence_string }}">
@@ -40,8 +40,6 @@
     <link rel="stylesheet" href="{{ site.url }}/assets/css/fontawesome.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
 
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.url }}" />
 
@@ -51,4 +49,3 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-

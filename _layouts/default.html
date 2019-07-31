@@ -4,17 +4,17 @@
 
     <body>
         <div class="wrapper">
-            {% include nav.html %}
+            {% include navigation.html %}
             <div class="container">
                 {% include search.html %} <!-- searchbox -->
-
                 <div class="masonry-container">
                     {{ content }}<!-- content page -->
                 </div>
             </div><!-- end container -->
-
             {% include footer.html %}
         </div>
+        <div id="ue-scroll" class="ue-scroll btn-black arrow-white circle shadow">
+        </div><!-- ue-scroll -->
     </body>
     {% include js.html %}
 </html>

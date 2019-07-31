@@ -1,4 +1,51 @@
 ---
-layout: post_listing
+layout: default
 permalink: /
 ---
+
+
+    {% for post in site.posts %}
+        <article class="card-box col-md-4 col-sm-6">
+            <div class="card card-with-border" data-background="image"
+                data-src=
+                {% if post.image.feature %}
+                    "{{ site.url }}/assets/img/{{ post.image.feature }}"
+                {% endif %}>
+
+                <div class="header">
+                    <h6 class="category">
+                        {% if post.categories.size >= 1 %}
+                           {% for cat in post.categories %}
+                                <span class="label label-danger">
+                                    <a href="{{site.url}}/categories#{{cat}}">
+                                       <i class="glyphicon glyphicon-tags"></i>
+                                        {{ cat }}
+                                    </a>
+                                    {% unless forloop.last %}
+                                        <span></span>
+                                    {% endunless %}
+                                </span>
+                           {% endfor %}
+                        {% endif %}
+                    </h6> <!-- end content category -->
+                </div>
+
+                <div class="content">
+                    <h5 class="title text-uppercase">
+                        <a href="{{site.url}}{{ post.url }}" title="{{post.title}}">
+                            {{ post.title | link_to:post.url }}
+                        </a>
+                    </h5>
+                    <p class="description">{% include post-info.html %}</p>
+                </div>
+
+                <div class="footer text-center">
+                    <a href="{{site.url}}{{ post.url }}" title="{{post.title}}" class="btn btn-round btn-fill btn-danger btn-modern">
+                        En savoir plus
+                    </a>
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+
+    <!-- taille recommander d'image Largeur : 498px Hauteur : 750 px-->

@@ -1,0 +1,33 @@
+<!-- pagination links -->
+<div class="container">
+    <div class="col-md-4 col-sm-6">
+        <div class="pagination">
+            <ul class="pagination-list list-reset">
+                {% if paginator.previous_page %}
+                    {% if paginator.previous_page == 1 %}
+                        <li class="previous-posts">
+                            <a class="previous-link" href="{{ site.url }}/">
+                                <span class="glyphicon glyphicon-chevron-left"></span> Previous
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="newer-posts">
+                            <a class="newer-link" href="{{ site.url }}/page/{{ paginator.previous_page }}/">
+                                <span class="glyphicon glyphicon-chevron-left"></span> Previous posts
+                            </a>
+                        </li>
+                    {% endif %}
+                {% endif %}
+
+
+                {% if paginator.next_page %}
+                    <li class="older-posts">
+                        <a class="older-link" href="{{ site.url }}/page/{{ paginator.next_page }}/">Older posts
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div> <!-- /.pagination end -->
+    </div>
+</div>

@@ -1,16 +1,13 @@
 
-        <!-- barre recherche -->
-        <div class="row">
+            <!-- barre recherche -->
             <div class="hipster-containers d-flex justify-content-center">
                 <div id="search-demo-container">
-                    <div class="searchbar">
-                        <input type="text" id="search" class="search_input" placeholder="Rechercher...">
-                        <span class="search_icon"><i class="fa fa-search"></i></span>
-                        <div class="card">
-                            <div id="results-container" style="z-index: 10000; background-color:white;"></div>
-                        </div>
+                    <div class="searchbar search">
+                        <label for="search-input"></label>
+                        <input type="text" id="search-input" class="input" placeholder="Rechercher..." autocomplete="false">
+                        <span class="icon"><i class="fa fa-search"></i></span>
+                        <ol id="search-result-container" class="search-results-list"></ol>
                     </div>
                 </div>
             </div>
-        </div>
 
