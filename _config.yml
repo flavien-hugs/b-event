@@ -32,11 +32,13 @@ kramdown:
     entity_output: as_char
     toc_levels: 1..6
     enable_coderay: false
-permalink: ':title'
+permalink: '/agenda/:title'
 plugins:
     - jekyll-paginate
     - jekyll-sitemap
     - jekyll-feed
+    - jekyll-seo-tag
+
 paginate: 7
 paginate_path: "/page/:num"
 
@@ -52,6 +54,7 @@ highlighter: rouge
 sitemap: true
 feed:
     path: atom.xml
+
 excerpt_separator: <!--more-->
 livereload: true
 

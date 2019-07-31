@@ -4,8 +4,6 @@ require "bundler/setup"
 require "jekyll"
 require "time"
 
-# define globals
-
 # nom du dépôt github
 GITHUB_REPONAME = "flavien-hugs/flavien-hugs.github.io"
 

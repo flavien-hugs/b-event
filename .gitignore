@@ -2,3 +2,4 @@ _site
 .sass-cache
 .directory
 Gemfile.lock
+.rake_tasks~
