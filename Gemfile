@@ -2,11 +2,14 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
 # gem "rails"
-
 gem 'jekyll'
+gem 'github-pages', versions['github-pages']
+gem 'rake'
 
 group :jekyll_plugins do
     gem 'jekyll-paginate'
