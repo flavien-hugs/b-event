@@ -42,7 +42,7 @@
             resultsContainer: document.getElementById('search-result-container'),
             json: "{{ site.url }}/search.json",
             searchResultTemplate:
-                '<li class="search-item"><a class="search-link" href="{ url }">{ title }</a></li>',
+                '<li class="search-item"><a class="search-link" href="{{ url }}/{{ title }}">{{ title }}</a></li>',
             noResultsText: '<li class="search-no-item">Aucun résultat trouvé.</li>',
         })
     });
