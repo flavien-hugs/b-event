@@ -3,3 +3,5 @@ _site
 .directory
 Gemfile.lock
 .rake_tasks~
+node_modules
+Gruntfile.js
