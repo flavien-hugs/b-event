@@ -5,9 +5,9 @@
 [
     {% for post in site.posts %}
         {
+            "title": "{{ post.title | strip_html | escape }}",
             "tags": "{{ post.tags | array_to_sentence_string }}",
             "categorie": "{{ post.categories | join: ', ' }}",
-            "title": "{{ post.title | strip_html | escape }}",
             "url": "{{ site.url }}{{ post.url }}",
             "date" : "{{ post.date }}"
         }
