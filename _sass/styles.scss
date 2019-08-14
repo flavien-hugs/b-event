@@ -7,7 +7,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.row-{
+.row- {
   margin-top: 20px;
 }
 
@@ -15,12 +15,11 @@ body {
   margin-bottom: 30px;
 }
 
-h1{
+h1 {
   font-size: 38px;
-}
-
-h1 small{
- color: #EEE;
+  small{
+    color: #EEE;
+  }
 }
 
 .section {
@@ -30,7 +29,7 @@ h1 small{
 /*Header*/
 
 .header- {
-  padding: 35px 0;
+  padding: 20px 0;
   background-color: white;
 }
 
@@ -51,51 +50,45 @@ h1 small{
 .header-right {
   float: right;
   text-align: right;
-}
-
-.header-right .header-ul {
-  list-style: none;
-  padding: 0;
-}
-
-.header-right .header-ul li {
-  margin-left: 10px;
-  display: inline-block;
-  list-style: none;
-}
-
-.header-right .header-ul li i {
-  margin-right: 5px;
-}
-
-.header-right nav li {
-  margin-right: 5px;
-  padding-right: 10px;
-  border-right: 1px solid #DDD;
-}
-
-.header-right nav li:last-child {
-  margin-right: 0;
-  padding-right: 0;
-  border: none;
+  .header-ul {
+    list-style: none;
+    padding: 0;
+    li {
+      margin-left: 10px;
+      display: inline-block;
+      list-style: none;
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+  nav li {
+    margin-right: 5px;
+    padding-right: 10px;
+    border-right: 1px solid #DDD;
+  }
+  nav li:last-child {
+    margin-right: 0px;
+    padding-right: 0;
+    border: none;
+  }
 }
 
 .strong {
   font-weight: bold;
   text-transform: uppercase;
   color: #737373;
-}
-
-.strong:hover {
-  border-bottom: 3px solid #337AB7;
-  transition: all 0.1s;
-}
-
-.strong:hover, .strong:focus, .current {
-  color: #337AB7;
+  &:hover {
+    transition: all 0.1s;
+    border-bottom: 3px solid #337AB7;
+  }
+  &:hover, &:focus {
+    color: #337AB7;
+  }
 }
 
 .current {
+  color: #337AB7;
   border-bottom: 3px solid #337AB7;
 }
 
@@ -238,11 +231,12 @@ h1 small{
 
 .footer-big {
   padding-top: 30px;
+  hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
-.footer-big hr {
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
+
 .footer-big .container > hr {
   margin-top: 50px;
 }

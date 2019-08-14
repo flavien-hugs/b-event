@@ -9,12 +9,10 @@ description: Un site web (Agenda) pour répertorier toutes les activités de la 
 keywords: ["unsta", "Jekyll"]
 
 
-
 #---------------------
 # A propos de l'auteur
 author: flavien-hugs
 email: unsta@pm.me
-
 
 
 #--------------------------
@@ -70,5 +68,4 @@ livereload: true
 owner:
     name: unsta
     author: flavien-hugs
-    job: "Centre de technologie unsta"
     email: unsta@pm.me

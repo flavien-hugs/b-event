@@ -1,7 +1,6 @@
 // Pagination styleSheet
 // color
-$blue-darken: #232427;
-$text: #C9D3E7;
+$text: #232427;
 
 // transition
 $global-transition : .35s;
@@ -18,23 +17,21 @@ $global-transition : .35s;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                padding: 20px 35px;
-                font-size: 14px;
-                line-height: 18px;
+                padding: 10px 25px;
+                font-size: 18px;
                 font-weight: bold;
                 color:$text;
-                background: rgba($blue-darken, .95);
                 transition: $global-transition;
                 &:hover {
-                    background: rgba(28, 29, 31, 0.35);
+                    background: #aaa;
                 }
             }
         }
         .older-link{
-            span {margin-left: 10px;}
+            span {margin-left: 5px;}
         }
         .previous-link, .newer-link {
-            span { margin-right: 10px; }
+            span { margin-right: 5px; }
         }
     }
     @media only screen and (min-width: 768px) {

@@ -1,7 +1,2 @@
 _site
-.sass-cache
-.directory
-Gemfile.lock
-.rake_tasks~
 node_modules
-Gruntfile.js

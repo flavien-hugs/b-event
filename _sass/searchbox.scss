@@ -15,12 +15,22 @@
 }
 
 .searchbar {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    height: 60px;
-    background-color: #353b48;
-    border-radius: 30px;
-    padding: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+    &:hover > .input {
+      padding: 0 10px;
+      width: 450px;
+      caret-color:red;
+      transition: width 0.4s linear;
+    }
+    &:hover > .icon {
+      background: white;
+      color: #e74c3c;
+    }
 }
 
 .input {
@@ -32,18 +42,6 @@
     caret-color:transparent;
     line-height: 40px;
     transition: width 0.4s linear;
-}
-
-.searchbar:hover > .input {
-    padding: 0 10px;
-    width: 450px;
-    caret-color:red;
-    transition: width 0.4s linear;
-}
-
-.searchbar:hover > .icon {
-    background: white;
-    color: #e74c3c;
 }
 
 .icon {
@@ -58,7 +56,7 @@
 }
 
 .search-results-list {
-  margin: 0;
+  margin: 0 auto;
   .search-item {
     margin-bottom: 15px;
     list-style: decimal inside;

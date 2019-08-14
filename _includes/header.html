@@ -18,7 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="{{ description }}">
     <meta name="keywords" content="{{ site.keywords | array_to_sentence_string }}">
-    <meta name="author" content="{{ title }}">
+    <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -36,8 +36,11 @@
     <title>{{ title }}</title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ "/assets/css/fontawesome.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/ue-scroll.min.css" | relative_url }}">
+     <link rel="stylesheet" href="{{ "/assets/css/hipster.min.css" | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"/>
@@ -45,7 +48,6 @@
     <!-- fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     {% seo %}

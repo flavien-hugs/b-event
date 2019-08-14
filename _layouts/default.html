@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.language | default: site.language | default: "fr" }}">
-    {% include head.html %}
+    {% include header.html %}
 
     <body>
         <div class="wrapper">
@@ -13,8 +13,8 @@
             </div><!-- end container -->
             {% include footer.html %}
         </div>
-        <div id="ue-scroll" class="ue-scroll btn-black arrow-white circle shadow">
-        </div><!-- ue-scroll -->
+        <div id="ue-scroll" class="ue-scroll btn-white arrow-black circle shadow"></div>
+        <!-- ue-scroll -->
+        {% include javascript.html %}
     </body>
-    {% include js.html %}
 </html>

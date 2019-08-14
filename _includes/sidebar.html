@@ -1,26 +1,11 @@
 
-
         <div class="card-box col-md-4 col-sm-6">
-            <div class="card" data-background="image" data-src="{{ site.url }}/assets/img/build/enfant.png">
-                <div class="header">
-                </div>
-
-                <div class="content">
-                    <p class="description">When selling products it's always a good idea to go with commanding fonts that are good at showing authority and security. I feel like Raleway and Roboto do just that.</p>
-                </div>
-            </div> <!-- end card -->
-        </div>
-
-        <div class="card-box col-md-4 col-sm-6">
-            {% if page.id %}
-                <div class="card" data-background="image" data-src="{{ site.url }}/assets/img/build/fashion.jpg">
-                    <div class="header"></div>
-
+                <div class="card">
                     <div class="content">
                         {% for post in site.posts limit: 4%}
                             <h5 class="title">
                                 <span class="glyphicon glyphicon-chevron-right"></span>
-                                <a href="{{ site.url }}{{ post.url }}">{{ post.title | truncatewords: '10' }}</a>
+                                <a href="{{ site.url }}{{ post.url }}">{{ post.title | truncatewords: '10' }}</a><br>
                                 <small>
                                     <time datetime=" {{ post.date | date_to_long_string}} ">
                                     {{ post.date | date_to_long_string }}
@@ -30,5 +15,4 @@
                         {% endfor %}
                     </div>
                 </div>
-            {% endif %}
         </div>

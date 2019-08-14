@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Un site web (Agenda) pour répertorier toutes les activités de la ville.">
     <meta name="keywords" content="unsta and Jekyll">
-    <meta name="author" content=" 404 - Page Not Found | b-event ">
+    <meta name="author" content="flavien-hugs">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -27,8 +27,11 @@
     <title> 404 - Page Not Found | b-event </title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="http://localhost:4000/assets/css/fontawesome.css">
-    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/ue-scroll.min.css">
+     <link rel="stylesheet" href="/assets/css/hipster.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
     <link rel="canonical" href="http://localhost:4000/404.html">
     <link rel="alternate" type="application/rss+xml" title="b-event"/>
@@ -36,12 +39,11 @@
     <!-- fonts and icons -->
     <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Begin Jekyll SEO tag v2.5.0 -->
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>404 - Page Not Found | b-event</title>
-<meta name="generator" content="Jekyll v3.8.5" />
+<meta name="generator" content="Jekyll v3.8.6" />
 <meta property="og:title" content="404 - Page Not Found" />
 <meta name="author" content="flavien-hugs" />
 <meta property="og:locale" content="en_US" />
@@ -51,7 +53,7 @@
 <meta property="og:url" content="http://localhost:4000/404.html" />
 <meta property="og:site_name" content="b-event" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"404 - Page Not Found","url":"http://localhost:4000/404.html","author":{"@type":"Person","name":"flavien-hugs"},"description":"Un site web (Agenda) pour répertorier toutes les activités de la ville.","@context":"http://schema.org"}</script>
+{"author":{"@type":"Person","name":"flavien-hugs"},"@type":"WebPage","url":"http://localhost:4000/404.html","headline":"404 - Page Not Found","description":"Un site web (Agenda) pour répertorier toutes les activités de la ville.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -216,29 +218,28 @@
     </footer>
 
         </div>
-    </body>
-    <!-- JavaScript files -->
+        <div id="ue-scroll" class="ue-scroll btn-white arrow-black circle shadow"></div>
+        <!-- ue-scroll -->
+        <!-- JavaScript files -->
 
-
-<!-- bootstrat files -->
-<script src="http://localhost:4000/assets/js/jquery-1.10.2.js" type="text/javascript" async defer></script>
-<script src="http://localhost:4000/assets/js/bootstrap.min.js" type="text/javascript" async defer></script>
 <script src="http://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript" async defer></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" type="text/javascript" async defer></script>
 
-<!-- hipster-cards -->
-<script src="http://localhost:4000/assets/js/hipster-cards.js" type="text/javascript" async defer></script>
-
-<!--  masonry cards  -->
-<script src="http://localhost:4000/assets/js/masonry.pkgd.js" type="text/javascript" async defer></script>
-<script>
-    $(document).ready(function(){
-        'use-strict';
+<!-- javascript site files -->
+<script src="http://localhost:4000/assets/js/jquery-1.10.2.js" type="text/javascript" async defer></script>
+<script src="http://localhost:4000/assets/js/bootstrap.min.js" type="text/javascript" async defer></script>
+<script src="http://localhost:4000/assets/js/hipster-cards.min.js" type="text/javascript" async defer></script>
+<script src="http://localhost:4000/assets/js/ue-scroll.min.js" type="text/javascript" async defer></script>
+ <script>UeScroll.init();</script>
+<script src="http://localhost:4000/assets/js/masonry.min.js" type="text/javascript" async defer></script>
+<script type="text/javascript" async defer>
+    $(document).ready(function() {
+        "use-strict";
         var $content = $('.masonry-container');
         doc_width = $(document).width();
-        if (doc_width >= 768){
-            $content.masonry({
-                itemSelector: '.card-box',
+        if (doc_width >= 768) {
+            $content.masonry ({
+                itemSelector : '.card-box',
                 columnWidth: '.card-box',
                 horizontalOrder: true,
                 transitionDuration: '0.8s',
@@ -249,11 +250,8 @@
         }
     });
 </script>
-<script src="http://localhost:4000/assets/js/demo.js" type="text/javascript" async defer></script>
-
-<!-- script de recherche search-script.js -->
 <script src="http://localhost:4000/assets/js/search.min.js" type="text/javascript" async defer></script>
-<script>
+<script type="text/javascript" async defer>
     $().ready(function() {
         'use-strict';
         SimpleJekyllSearch({
@@ -261,20 +259,12 @@
             resultsContainer: document.getElementById('search-result-container'),
             json: "http://localhost:4000/search.json",
             searchResultTemplate:
-                '<li class="search-item"><a class="search-link" href="{ url }">{ title }</a></li>',
+                '<li class="search-item"><a class="search-link" href=""> 404 - Page Not Found | b-event </a></li>',
             noResultsText: '<li class="search-no-item">Aucun résultat trouvé.</li>',
         })
     });
 </script>
+<script src="http://localhost:4000/assets/js/sitejs.min.js" type="text/javascript" async defer></script>
 
-<!--  ue-srcoll-top  -->
-<script src="http://localhost:4000/assets/js/ue-scroll.min.js" type="text/javascript" async defer></script>
-<script>
-    UeScroll.init({
-        'use-strict';
-        element: '#ue-scroll',
-        scrollSpeed: 10,
-    });
-</script>
-
+    </body>
 </html>
