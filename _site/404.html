@@ -27,11 +27,11 @@
     <title> 404 - Page Not Found | b-event </title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/ue-scroll.min.css">
-     <link rel="stylesheet" href="/assets/css/hipster.min.css">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/ue-scroll.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/hipster.min.css">
+    <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
 
     <link rel="canonical" href="http://localhost:4000/404.html">
     <link rel="alternate" type="application/rss+xml" title="b-event"/>
@@ -53,7 +53,7 @@
 <meta property="og:url" content="http://localhost:4000/404.html" />
 <meta property="og:site_name" content="b-event" />
 <script type="application/ld+json">
-{"author":{"@type":"Person","name":"flavien-hugs"},"@type":"WebPage","url":"http://localhost:4000/404.html","headline":"404 - Page Not Found","description":"Un site web (Agenda) pour répertorier toutes les activités de la ville.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/404.html","headline":"404 - Page Not Found","author":{"@type":"Person","name":"flavien-hugs"},"description":"Un site web (Agenda) pour répertorier toutes les activités de la ville.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -230,11 +230,15 @@
 <script src="http://localhost:4000/assets/js/bootstrap.min.js" type="text/javascript" async defer></script>
 <script src="http://localhost:4000/assets/js/hipster-cards.min.js" type="text/javascript" async defer></script>
 <script src="http://localhost:4000/assets/js/ue-scroll.min.js" type="text/javascript" async defer></script>
- <script>UeScroll.init();</script>
+<script>UeScroll.init();</script>
+<script src="http://localhost:4000/assets/js/imagesloaded.min.js" type="text/javascript" async defer></script>
 <script src="http://localhost:4000/assets/js/masonry.min.js" type="text/javascript" async defer></script>
+<script src="http://localhost:4000/assets/js/infinite-scroll.min.js" type="text/javascript" async defer></script>
 <script type="text/javascript" async defer>
     $(document).ready(function() {
         "use-strict";
+        // get Masonry instance
+        var mansonry = $grid.data('masonry');
         var $content = $('.masonry-container');
         doc_width = $(document).width();
         if (doc_width >= 768) {
@@ -248,6 +252,10 @@
         } else {
             $('.mas-container').removeClass('mas-container').addClass('row');
         }
+        $content.infiniteScroll({
+            append: '.card-box',
+            outlayer: mansonry,
+        });
     });
 </script>
 <script src="http://localhost:4000/assets/js/search.min.js" type="text/javascript" async defer></script>
@@ -259,7 +267,7 @@
             resultsContainer: document.getElementById('search-result-container'),
             json: "http://localhost:4000/search.json",
             searchResultTemplate:
-                '<li class="search-item"><a class="search-link" href=""> 404 - Page Not Found | b-event </a></li>',
+                '<li class="search-item"><a class="search-link" href="{url}/{title}">{title}</a></li>',
             noResultsText: '<li class="search-no-item">Aucun résultat trouvé.</li>',
         })
     });

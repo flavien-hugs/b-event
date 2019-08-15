@@ -8,11 +8,15 @@
 <script src="{{ site.url }}/assets/js/bootstrap.min.js" type="text/javascript" async defer></script>
 <script src="{{ site.url }}/assets/js/hipster-cards.min.js" type="text/javascript" async defer></script>
 <script src="{{ site.url }}/assets/js/ue-scroll.min.js" type="text/javascript" async defer></script>
- <script>UeScroll.init();</script>
+<script>UeScroll.init();</script>
+<script src="{{ site.url }}/assets/js/imagesloaded.min.js" type="text/javascript" async defer></script>
 <script src="{{ site.url }}/assets/js/masonry.min.js" type="text/javascript" async defer></script>
+<script src="{{ site.url }}/assets/js/infinite-scroll.min.js" type="text/javascript" async defer></script>
 <script type="text/javascript" async defer>
     $(document).ready(function() {
         "use-strict";
+        // get Masonry instance
+        var mansonry = $grid.data('masonry');
         var $content = $('.masonry-container');
         doc_width = $(document).width();
         if (doc_width >= 768) {
@@ -26,6 +30,10 @@
         } else {
             $('.mas-container').removeClass('mas-container').addClass('row');
         }
+        $content.infiniteScroll({
+            append: '.card-box',
+            outlayer: mansonry,
+        });
     });
 </script>
 <script src="{{ site.url }}/assets/js/search.min.js" type="text/javascript" async defer></script>
@@ -37,7 +45,7 @@
             resultsContainer: document.getElementById('search-result-container'),
             json: "{{ site.url }}/search.json",
             searchResultTemplate:
-                '<li class="search-item"><a class="search-link" href="{{ url }}">{{ title }}</a></li>',
+                '<li class="search-item"><a class="search-link" href="{url}/{title}">{title}</a></li>',
             noResultsText: '<li class="search-no-item">Aucun résultat trouvé.</li>',
         })
     });

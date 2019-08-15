@@ -1,13 +1,13 @@
 ---
-    layout: null
+
 ---
 
 [
     {% for post in site.posts %}
         {
-            "title": "{{ post.title | strip_html | escape }}",
-            "tags": "{{ post.tags | array_to_sentence_string }}",
-            "categorie": "{{ post.categories | join: ', ' }}",
+            "title": "{{ post.title | escape }}",
+            "categorie": "{{ post.categories }}",
+            "tags"     : "{{ post.tags | join: ', ' }}",
             "url": "{{ site.url }}{{ post.url }}",
             "date" : "{{ post.date }}"
         }

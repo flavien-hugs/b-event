@@ -8,8 +8,6 @@ $global-transition : .35s;
 .pagination {
     .pagination-list {
         display: flex;
-        align-items: center;
-        text-align: center;
         .older-posts, .previous-posts, .newer-posts {
             display: inline-block;
             flex-grow: 1;

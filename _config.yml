@@ -3,8 +3,9 @@
 
 title: b-event
 language: "fr"
-baseurl: "https://flavien-hugs.github.io/b-event/"
-url: "https://flavien-hugs.github.io/b-event/"
+baseurl: ""
+source: ""
+url: ""
 description: Un site web (Agenda) pour répertorier toutes les activités de la ville.
 keywords: ["unsta", "Jekyll"]
 

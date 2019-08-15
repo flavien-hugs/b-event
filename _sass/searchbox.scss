@@ -34,25 +34,25 @@
 }
 
 .input {
-    color: white;
-    border: 0;
-    outline: 0;
-    background: none;
-    width: 0;
-    caret-color:transparent;
-    line-height: 40px;
-    transition: width 0.4s linear;
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
 }
 
 .icon {
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:white;
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:white;
 }
 
 .search-results-list {
@@ -68,10 +68,9 @@
       width: 100%;
       padding: 15px;
       font-size: 21px;
-      color: #fff;
       white-space: normal;
       &:hover {
-        color: #fff;
+        color: #323743;
       }
     }
   }
