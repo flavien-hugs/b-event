@@ -1,96 +1,15 @@
-    <footer class="footer- footer-big footer-color-black" data-color="black">
+
+    <footer id="fh5co-footer">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-3">
-                    <div class="info">
-                        <h5 class="title">Qui sommes-nous ?</h5>
-                        <nav>
-                                <ul>
-                                    <li>
-                                        <a href="{{ site.url }}">{{ site.title }}</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="{{ site.url }}/#">Ce que nous faisons</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="{{ site.url }}/about">A propos de nous</a>
-                                    </li>
-                                </ul>
-                        </nav>
-                    </div>
+            <div class="row row-padded">
+                <div class="col-md-12 text-center">
+                    <p class="fh5co-social-icons">
+                        <a href="#"><i class="icon-twitter"></i></a>
+                        <a href="#"><i class="icon-facebook"></i></a>
+                        <a href="#"><i class="icon-instagram"></i></a>
+                    </p>
+                    <p><small class="font-weight-bold text-uppercase">&copy; {{site.time | date : '%Y'}} {{ site.title }}</small></p>
                 </div>
-
-                <div class="col-md-3 col-sm-3">
-                        <div class="info">
-                            <h5 class="title"> Aides</h5>
-                             <nav>
-                                <ul>
-                                    <li>
-                                        <a href="{{ site.url }}/#">Faire un don</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ site.url }}/#">Comment nous soutenir ?</a>
-                                    </li>
-                                    <li>
-                                        <a href="{{ site.url }}/#">Termes &amp; conditions d'utilisation</a>
-                                    </li>
-
-                                </ul>
-                            </nav>
-                        </div>
-                </div>
-
-                <div class="col-md-2 col-md-offset-1 col-sm-3">
-                        <div class="info">
-                            <h5 class="title"> Support</h5>
-                             <nav>
-                                <ul>
-                                    <li>
-                                        <a href="{{ site.url }}/#">Nos projets</a>
-                                    </li>
-
-                                    <li>
-                                        <a href="{{ site.url }}/#">Notre Portfolio</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                </div>
-
-                    <div class="col-md-2 col-md-offset-1 col-sm-3">
-                        <div class="info">
-                            <h5 class="title">Suivez-nous sur</h5>
-                            <nav>
-                                <ul>
-                                    <li>
-                                        <a href="https://twitter.com/flavien_hugs" target="_blank" rel="noopener noreferrer" title="Twitter" class="btn btn-social btn-twitter btn-simple">
-                                            <i class="fa fa-twitter"></i> @flavien-hugs
-                                        </a>
-                                    </li>
-                                     <li>
-                                        <a href="https://www.facebook.com/flavien.hugs/" title="Facebook" target="_blank" rel="noopener noreferrer" class="btn btn-social btn-facebook btn-simple">
-                                            <i class="fa fa-facebook-square"></i> flavien hugs
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/flavien-hugs/" title="Github" target="_blank" rel="noopener noreferrer" class="btn btn-social btn-twitter btn-simple">
-                                            <i class="fa fa-github"></i> flavien-hugs
-                                        </a>
-                                    </li>
-
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-            </div>
-            <hr>
-
-            <div class="copyright">
-                <p>
-                    <a href="{{site.url }}">{{ site.title }}</a> {{site.time | date : '%Y'}}. Powered by <a href="#">unsta technologie</a>
-                </p>
             </div>
         </div>
     </footer>

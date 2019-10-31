@@ -1,50 +1,44 @@
         <small>
-            <span class="glyphicon glyphicon-calendar" aria-hidden="true">
+            <span class="fa fa-clock-o" aria-hidden="true">
                 <time datetime=" {{ post.date | date_to_long_string}} ">
                     {% if post %}
-                    {{ post.date | date_to_long_string }}
+                        {{ post.date | date_to_long_string }}
                     {% else %}
-                    {{ page.date | date_to_long_string }}
+                        {{ page.date | date_to_long_string }}
                     {% endif %}
                 </time>
-            </span>
-            <br>
 
-            <span class="fa fa-clock-o" aria-hidden="true">
                 <time>
                     {% if post %}
                         {{ post.heure }}
-                        {% else %}
+                    {% else %}
                         {{ page.heure }}
                     {% endif %}
                 </time>
-            </span>
 
-            <br>
-
-            <span class="glyphicon glyphicon-map-marker" aria-hidden="true">
                 {% if post %}
                     {{ post.lieu }}
                 {% else %}
                     {{ page.lieu }}
                 {% endif %}
             </span>
+
             <br>
 
-            <span class="glyphicon glyphicon-user" aria-hidden="true">
+            <span>
                 {% if post %}
                     {{ post.author }}
                 {% else %}
                     {{ page.author }}
                 {% endif %}
             </span>
-            <br>
-            <span class="fa fa-eye" aria-hidden="true">
+
+            <span>
                 {% assign words = page.content | number_of_words  %}
                 {% if words %}
-                    vue {{ words | plus: 250 | divided_by: 180 | append: " fois" }}
+                    {{ words | plus: 250 | divided_by: 180 | append: " vue" }}
                 {% else %}
-                    vues {{ words | divided_by: 180 | append: " fois" }}
+                    {{ words | divided_by: 180 | append: " vues" }}
                 {% endif %}
             </span>
         </small>

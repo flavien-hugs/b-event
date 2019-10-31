@@ -1,51 +1,33 @@
 ---
-layout: default
-permalink: /
+    layout: default
+    permalink: /
 ---
+        <article id="fh5co-board" data-columns>
+            {% for post in site.posts %}
+                <div class="item">
+                    <div class="animate-box">
+                        <a href="{{ site.url }}/assets/img/{{ post.image.feature }}" class="image-popup fh5co-board-img" title="{{ post.title }}">
+                            <img src="{{ site.url }}/assets/img/{{ post.image.feature }}" alt="{{ post.title }}">
+                        </a>
+                    </div>
 
-
-    {% for post in site.posts %}
-        <article class="card-box col-md-4 col-sm-6">
-            <div class="card card-with-border" data-background="image"
-                data-src=
-                {% if post.image.feature %}
-                    "{{ site.url }}/assets/img/{{ post.image.feature }}"
-                {% endif %}>
-
-                <div class="header">
-                    <h6 class="category">
-                        {% if post.categories.size >= 1 %}
-                           {% for cat in post.categories %}
-                                <span class="label label-danger">
-                                    <a href="{{site.url}}/categories#{{cat}}">
-                                       <i class="glyphicon glyphicon-tags"></i>
-                                        {{ cat }}
-                                    </a>
-                                    {% unless forloop.last %}
-                                        <span></span>
-                                    {% endunless %}
-                                </span>
-                           {% endfor %}
+                    <div class="fh5co-desc">
+                        {% if post.categories.size >=1 %}
+                            {% for cat in post.categories  %}
+                                <a class="text-muted font-weight-bold" href="{{ site.url }}/categories#{{ cat }}" title="{{ cat }}">
+                                    #{{ cat }}
+                                </a>
+                            {% endfor %}
                         {% endif %}
-                    </h6> <!-- end content category -->
-                </div>
 
-                <div class="content">
-                    <h5 class="title text-uppercase">
-                        <a href="{{site.url}}{{ post.url }}" title="{{post.title}}">
+                        <a class="text-capitalize font-weight-bold text-dark mb-2" href="{{site.url}}{{ post.url }}" title="{{post.title}}">
                             {{ post.title | link_to:post.url }}
                         </a>
-                    </h5>
-                    <p class="description">{% include post-info.html %}</p>
+                        <p>{% include post-info.html %}</p>
+                    </div>
                 </div>
-
-                <div class="footer text-center">
-                    <a href="{{site.url}}{{ post.url }}" title="{{post.title}}" class="btn btn-round btn-fill btn-danger btn-modern">
-                        En savoir plus
-                    </a>
-                </div>
-            </div>
+            {% endfor %}
         </article>
-    {% endfor %}
+
 
     <!-- taille recommander d'image Largeur : 498px Hauteur : 750 px-->
