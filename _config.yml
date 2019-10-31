@@ -3,9 +3,9 @@
 
 title: b-event
 language: "fr"
-baseurl: ""
-source: ""
-url: ""
+baseurl: "https://flavien-hugs.github.io/b-event/"
+source: "https://flavien-hugs.github.io/b-event/"
+url: "https://flavien-hugs.github.io/b-event/"
 description: Un site web (Agenda) pour répertorier toutes les activités de la ville.
 keywords: ["unsta", "Jekyll"]
 
@@ -60,6 +60,7 @@ feed:
     path: atom.xml
 
 livereload: true
+
 
 #-----------------------------
 # Site owner configuration
