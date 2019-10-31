@@ -6,9 +6,6 @@ module.exports = function(grunt) {
 
         cssmin: {
             dist: {
-                options: {
-                    separator: ";",
-                },
                 files: [{
                     expand: true,
                     cwd: 'assets/css',
@@ -21,9 +18,6 @@ module.exports = function(grunt) {
 
         // configuration pour la concaténation
         concat: {
-            options: {
-                separator: ";"
-            },
             dist: {
                 src: "assets/js/*.min.js",
                 dest: 'assets/js/main.js'

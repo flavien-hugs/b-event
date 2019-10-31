@@ -2,17 +2,6 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-// demo
-@import "styles";
-
-// searchbar
-@import "searchbox";
-
-// contact-form
-@import "contact-form";
-
-// paginate
 @import "paginate";
 
-// errors page style
 @import "errors";

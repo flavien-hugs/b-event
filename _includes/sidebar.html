@@ -1,18 +1,19 @@
 
         <div class="card-box col-md-4 col-sm-6">
-                <div class="card">
-                    <div class="content">
-                        {% for post in site.posts limit: 4%}
-                            <h5 class="title">
-                                <span class="glyphicon glyphicon-chevron-right"></span>
-                                <a href="{{ site.url }}{{ post.url }}">{{ post.title | truncatewords: '10' }}</a><br>
-                                <small>
-                                    <time datetime=" {{ post.date | date_to_long_string}} ">
+            <h3 class="title font-weight-bold" title="{{page.title}}">Activités similaires</h3>
+            <div class="card">
+                <div class="content">
+                    {% for post in site.posts limit: 4%}
+                        <h5 class="title">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <a href="{{ site.url }}{{ post.url }}">{{ post.title | truncatewords: '10' }}</a>
+                            <small>
+                                <time datetime=" {{ post.date | date_to_long_string}} ">
                                     {{ post.date | date_to_long_string }}
-                                    </time>
-                                </small>
-                            </h5>
-                        {% endfor %}
-                    </div>
+                                </time>
+                            </small>
+                        </h5>
+                    {% endfor %}
                 </div>
+            </div>
         </div>

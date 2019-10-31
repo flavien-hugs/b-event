@@ -11,7 +11,7 @@ permalink: /categories/
         <div class="card">
             <div class="content">
                 <div class="category">
-                    <h6 class="label label-danger" id="{{ cat_name | slugize }}">
+                    <h6 class="label label-success" id="{{ cat_name | slugize }}">
                         {{ cat_name }}
                         (<span>{{ site.categories[cat_name].size }}</span>)
                     </h6>
@@ -20,7 +20,7 @@ permalink: /categories/
                    <ul>
                         <h5 class="title">
                             <span class="glyphicon glyphicon-chevron-right"></span>
-                            <a href="{{site.url}}{{post.url}}">{{post.title}}</a>
+                            <a class="nav-link" href="{{site.url}}{{post.url}}">{{post.title}}</a>
                         </h5>
                    </ul>
                 {% endfor %}

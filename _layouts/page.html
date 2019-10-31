@@ -2,15 +2,16 @@
 <html lang="{{ page.language | default: site.language | default: "fr" }}">
     {% include header.html %}
     <body>
-        <div class="wrapper">
-            {% include navigation.html %}
+        {% include navigation.html %}
+        <div class="fh5co-main">
             <div class="container">
-                <div class="row row-">
+                <div class="row">
                     {{ content }}<!-- content page -->
                 </div>
             </div><!-- end container -->
-            {% include footer.html %}
         </div>
+
+        {% include footer.html %}
         <div id="ue-scroll" class="ue-scroll btn-white arrow-black circle shadow"></div>
         <!-- ue-scroll -->
         {% include javascript.html %}
